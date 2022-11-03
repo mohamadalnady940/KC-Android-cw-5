@@ -24,5 +24,6 @@ public class secondactivity extends AppCompatActivity {
         Nameplain.setText(name);
         Ageplain.setText(age);
 
+
     }
 }

@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent( MainActivity.this, secondactivity.class);
                 intent.putExtra( "n", name);
                 intent.putExtra("a", age);
+                if(!(nametext.getText().toString().isEmpty()))
                 startActivity(intent);
 
             }
